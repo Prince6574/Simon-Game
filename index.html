@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Prince Kumar</div>
+            <ul class="nav-menu">
+                <li><a onclick="scrollToSection('hero')">Home</a></li>
+                <li><a onclick="scrollToSection('about')">About</a></li>
+                <li><a onclick="scrollToSection('education')">Education</a></li>
+                <li><a onclick="scrollToSection('experience')">Experience</a></li>
+                <li><a onclick="scrollToSection('projects')">Projects</a></li>
+                <li><a onclick="scrollToSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="c:\Users\princ\OneDrive\Pictures\1000263918.jpg" alt="">
+            </div>
+            <h1>Prince Kumar</h1>
+            <p class="subtitle">Web Devloper</p>
+            <p class="description">
+                Hi, I’m Prince Kumar a passionate web devlopment with a love for [web devlopment – e.g.,
+                storytelling, design, problem-solving, helping others grow]. I thrive on turning ideas into action 
+                and bringing creativity and strategy together to make an impact.I’m all
+                  about purpose, progress, and connection. Welcome to my world—let’s create something meaningful together.
+
+
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary" onclick="scrollToSection('contact')">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary" onclick="scrollToSection('projects')">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div>
+                    <h3>My Story</h3>
+                    <p class="about-text">
+                        Write a detailed description about yourself here. Include your background, 
+                        interests, career journey, and what motivates you. This is where you can 
+                        really connect with your visitors on a personal level.
+                    </p>
+                </div>
+                <div>
+                    <h3>Skills & Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4>Programming</h4>
+                            <p>Languages you know</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Web Development</h4>
+                            <p>Frontend/Backend</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Design</h4>
+                            <p>UI/UX, Graphics</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Other Skills</h4>
+                            <p>Additional expertise</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-degree">Master's Degree in [Your Field]</div>
+                    <div class="education-school">University Name</div>
+                    <div class="education-year">2020 - 2022</div>
+                    <p>Description of your studies, achievements, relevant coursework, or thesis topic.</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-degree">Bachelor's Degree in [Information Technology]</div>
+                    <div class="education-school">Patliputra University</div>
+                    <div class="education-year">2023 - 2026</div>
+                    <p>Description of your undergraduate studies, major projects, or notable achievements.</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-degree">+2 High school Itimha</div>
+                    <div class="education-school">Pushpa High School</div>
+                    <div class="education-year">2011 - 2021</div>
+                    <p>Relevant high school achievements, extracurricular activities, or honors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="experience-title">Current Job Title</div>
+                    <div class="experience-company">Company Name</div>
+                    <div class="experience-duration">2022 - Present</div>
+                    <p>Description of your current role, responsibilities, and key achievements. Include specific projects or metrics if possible.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Previous Job Title</div>
+                    <div class="experience-company">Previous Company</div>
+                    <div class="experience-duration">2020 - 2022</div>
+                    <p>Description of your previous role and what you accomplished there.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Internship/Entry Level Position</div>
+                    <div class="experience-company">Company Name</div>
+                    <div class="experience-duration">2019 - 2020</div>
+                    <p>Description of your early career experience or internships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🚀</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 1</h3>
+                        <p class="project-description">
+                            Brief description of your project, what problem it solves, and your role in it.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Technology 1</span>
+                            <span class="tech-tag">Technology 2</span>
+                            <span class="tech-tag">Technology 3</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">💻</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 2</h3>
+                        <p class="project-description">
+                            Another project description highlighting your skills and the impact of your work.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 3</h3>
+                        <p class="project-description">
+                            Third project showcasing different skills or technologies you've worked with.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            princekumar46399@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +91-8252676827
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Location</strong><br>
+                            Patna, Bihar, India
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <strong>LinkedIn</strong><br>
+                            https://www.linkedin.com/in/prince-kumar-354a27302
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">📧</a>
+                <a href="#" class="social-link">💼</a>
+                <a href="#" class="social-link">🐙</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling function
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            const offset = 70; // Account for fixed navbar
+            const elementPosition = element.offsetTop - offset;
+            
+            window.scrollTo({
+                top: elementPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        // Scroll progress indicator
+        window.addEventListener('scroll', function() {
+            const scrollProgress = document.getElementById('scrollProgress');
+            const scrollTop = window.pageYOffset;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            
+            scrollProgress.style.width = scrollPercent + '%';
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I\'ll get back to you soon.');
+            this.reset();
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animations
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
